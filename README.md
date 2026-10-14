@@ -1,8 +1,8 @@
 # THE BRAND — React (финальный проект)
 
-Перевод вёрстки [HTML/CSS магазина](https://deligtfullady.github.io/HTML_CSS/index.html) на **React**.
+### Выполнила Емельянова Ирина
 
-Курс: **Фреймворк React JS · Урок 8. Работа с API / Итоговый проект**
+## Курс: **Фреймворк React JS · Урок 8. Работа с API / Итоговый проект**
 
 ---
 
@@ -41,41 +41,6 @@ npm run dev
 ```bash
 npm run build    # production-сборка
 npm run preview  # просмотр сборки
-```
-
----
-
-## Структура
-
-```
-the-brand-react/
-├── index.html
-├── package.json
-├── vite.config.js
-├── README.md
-└── src/
-    ├── main.jsx              # Provider + PersistGate + Router
-    ├── App.jsx               # Routes
-    ├── index.css             # стили по макету THE BRAND
-    ├── data/products.js      # товары + категории
-    ├── store/
-    │   ├── index.js          # configureStore + redux-persist
-    │   └── cartSlice.js      # корзина + селекторы (GRAND TOTAL)
-    ├── components/
-    │   ├── Header.jsx
-    │   ├── Footer.jsx
-    │   ├── ProductCard.jsx
-    │   ├── ProductList.jsx
-    │   ├── SizeFilter.jsx
-    │   ├── CartItem.jsx
-    │   ├── Benefits.jsx
-    │   └── Subscribe.jsx
-    └── pages/
-        ├── Home.jsx
-        ├── Catalog.jsx
-        ├── ProductPage.jsx
-        └── Cart.jsx
-```
 
 ---
 
@@ -90,17 +55,8 @@ the-brand-react/
 
 ---
 
-## Корзина (Redux)
-
-- `addToCart` / `removeFromCart`
-- `increaseQuantity` / `decreaseQuantity` / `setQuantity`
-- `selectCartTotal` → **Grand total**
-- Persist: данные не сбрасываются после F5
-
----
-
 ## Оригинал вёрстки
 
 https://deligtfullady.github.io/HTML_CSS/index.html  
 
-Изображения: `raw.githubusercontent.com/deligtfullady/HTML_CSS/main/img/`
+
